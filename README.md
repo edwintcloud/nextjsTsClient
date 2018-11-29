@@ -1,5 +1,7 @@
 # nextjsTsClient
-Next.js client using TypeScript and SASS that is ready for deployment on Now.
+Next.js client using TypeScript and SASS that is ready for deployment on Now. 
+---
+Demo [here](https://nextjstsclient.now.sh)
 
 ## Setup
 1. Install dependencies: `npm i`
@@ -8,4 +10,4 @@ Next.js client using TypeScript and SASS that is ready for deployment on Now.
 ## Deployment to Now
 If you don't have a zeit now account, create one [here](https://zeit.co/signup). Make sure the cli is installed.
 1. To deploy: `now`
-2. To change the name of the deployment: `now alias new_name`
+2. To change the name of the deployment: `now alias deployment_url new_name`
