@@ -1,6 +1,12 @@
 {
   "name": "nextjstsclient",
   "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "next/babel",
+      "@zeit/next-typescript/babel"
+    ]
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
