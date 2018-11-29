@@ -1,8 +1,8 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunkMiddleware from 'redux-thunk'
-import { reducer as announcementReducer } from './states/announcement/reducer'
-import { reducer as somethingReducer } from './states/something/reducer'
+import { reducer as announcementReducer } from './announcement/reducer'
+import { reducer as somethingReducer } from './something/reducer'
 
 export const initStore = (initialState) => {
   return createStore(combineReducers({
